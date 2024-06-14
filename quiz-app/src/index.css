@@ -1,0 +1,103 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #f0ead1;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.appContainer { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.app {
+	display: flex;
+	font-family: 'Cabin';
+	font-size: 17px;
+	background-color: #8a2be2;
+	color: #f0ead1;
+	height: 250px;
+	width: 600px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px 3px #751ac9;
+	transition: 0.3s;
+}
+
+.app:hover {
+	transform: scale(1.05);
+	box-shadow: 12px 12px 12px 4px #751ac9;
+}
+
+.result {
+  font-family: 'Cabin';
+  font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.result p { 
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Cabin';
+  color: #8a2be2;
+  text-shadow: #751ac9  2px 2px 10px;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.leftBlock,
+.rightBlock {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 10px;
+	margin: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.leftBlock span {
+	font-family: 'Cabin';
+	font-size: 30px;
+  text-shadow: black 5px 5px 7px ;
+}
+
+.leftBlock p {
+	font-family: 'Mukta';
+	font-size: 20px;
+}
+
+button {
+	font-family: 'Alegreya Sans';
+	font-size: 30px;
+	padding: 5px;
+	margin: 10px;
+	width: 150px;
+	border-radius: 15px;
+	border: #f0ead1 1px solid;
+	color: #8a2be2;
+	transition: 0.3s;
+}
+
+button:hover {
+	scale: 110%;
+	box-shadow: 4px 6px 10px -2px rgba(179, 179, 179);
+	transform: translateY(-10%);
+	cursor: pointer;
+}
